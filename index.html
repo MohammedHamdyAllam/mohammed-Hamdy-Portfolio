@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Mohammed Hamdy portfolio</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="mohammed hamdy portfolio">
-    <meta name="description" content="mohammed hamdy portfolio">
-    <meta name="keywords" content="mohammed hamdy, fron-end, html, css, js, javascript">
+    <meta name="title" content="Mohammed Hamdy portfolio">
+    <meta name="description" content="Mohammed Mamdy portfolio">
+    <meta name="keywords" content="Mohammed Hamdy, fron-end, html, css, js, javascript, react, bootstrap">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
@@ -20,8 +20,8 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
     <!-- normalize -->
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <!-- bootstrap -->
     <!-- css files -->
     <link rel="stylesheet" href="css/style.css">
@@ -53,83 +53,81 @@
     <script defer src="js/main.js"></script>
     <script defer src="js/wifi.js"></script>
     <script defer src="js/tippy.js"></script>
-    <script defer src=""></script>
     <!-- js files -->
-</head>
+  </head>
 <body>
-  </script>
-    <!-- Start wifi errors code -->
-    <div id="wifi" class="wifi">
-        <i class="fa-solid fa-wifi wifi-icon"></i>
-        <h4>sorry but, There is something in your network</h4>
-        <button id="reload-button" class="reload-button">reload <i class="fa-solid fa-rotate-right"></i></button>
-        <span id="loader" class="loader"></span>
+  <!-- Start wifi errors code -->
+  <div id="wifi" class="wifi">
+    <i class="fa-solid fa-wifi wifi-icon"></i>
+    <span>sorry but, There is something in your network</span>
+    <button id="reload-button" class="reload-button">reload <i class="fa-solid fa-rotate-right"></i></button>
+    <span id="loader" class="loader"></span>
+  </div>
+  <!-- End wifi errors code -->
+  <!-- Start header -->
+  <header>
+    <div class="container">
+      <p>Mohammed Hamdy</p>
+      <nav id="nav-bar">
+        <i id="menu" class="fa-solid fa-bars menu"></i>
+        <button id="theme" class="theme">
+        <span class="sr-only">theme switcher</span>
+        <i class="fa-solid fa-cloud-moon"></i></button>
+        <a class="nav" href="#home">HOME</a>
+        <a class="nav" href="#About">ABOUT</a>
+        <a class="nav" href="#Portfolio">PORTFOLIO</a>
+        <a class="nav" href="#Contact">CONTACT</a>
+      </nav>
     </div>
-    <!-- End wifi errors code -->
-    <!-- Start header -->
-    <header>
-        <div class="container">
-            <p>Mohammed Hamdy</p>
-            <nav id="nav-bar">
-                <i id="menu" class="fa-solid fa-bars menu"></i>
-                <button id="theme" class="theme">
-                    <span class="sr-only">theme switcher</span>
-                    <i class="fa-solid fa-cloud-moon"></i></button>
-                <a class="nav" href="#home">HOME</a>
-                <a class="nav" href="#About">ABOUT</a>
-                <a class="nav" href="#Portfolio">PORTFOLIO</a>
-                <a class="nav" href="#Contact">CONTACT</a>
-            </nav>
+  </header>
+  <!-- End header -->
+  <!-- Start main section -->
+  <main id="home">
+    <div class="container">
+      <img id="my-picture" src="images/profile_image.png" alt="image for me wear a white shirt and work on my laptop">
+      <h1 id="my-name">I am Mohammed Hamdy Allam</h1>
+      <p id="my-work1" class="my-work1">front-end-developer</p>
+        <div class="links">
+          <a id="youtube" target="_blank" href="https://www.youtube.com" aria-label="my youtube link"><i class="fa-brands fa-youtube"></i></a>
+          <a id="facebook" target="_blank" href="https://www.facebook.com/mohammedhamdy.hamdy.18" aria-label="my facebook link"><i class="fa-brands fa-facebook"></i></a>
+          <a id="instagram" target="_blank" href="https://www.instagram.com" aria-label="my instagram link"><i class="fa-brands fa-instagram"></i></a>
+          <a id="twitter" target="_blank" href="https://twitter.com/MohammedHamdyX" aria-label="my twitter link"><i class="fa-brands fa-twitter"></i></a>
+          <a id="tiktok" target="_blank" href="https://www.tiktok.com" aria-label="my tiktok link"><i class="fa-brands fa-tiktok"></i></a>
+          <a id="discord" target="_blank" href="https://www.discord.com" aria-label="my discord link"><i class="fa-brands fa-discord"></i></a>
+          <a id="linkedin" target="_blank" href="https://www.linkedin.com" aria-label="my linkedin link"><i class="fa-brands fa-linkedin"></i></a>
+          <a id="github" target="_blank" href="https://www.github.com" aria-label="my github link"><i class="fa-brands fa-github"></i></a>
         </div>
-    </header>
-    <!-- End header -->
-    <!-- Start main section -->
-    <main id="home">
-        <div class="container">
-            <img id="my-picture" src="images/profile_image.png" alt="image for me wear a white shirt and work on my laptop">
-            <h1 id="my-name">I am Mohammed Hamdy Allam</h1>
-            <p id="my-work1" class="my-work1">front-end-developer</p>
-            <div class="links">
-                <a id="youtube" target="_blank" href="https://www.youtube.com" aria-label="my youtube link"><i class="fa-brands fa-youtube"></i></a>
-                <a id="facebook" target="_blank" href="https://www.facebook.com" aria-label="my facebook link"><i class="fa-brands fa-facebook"></i></a>
-                <a id="instagram" target="_blank" href="https://www.instagram.com" aria-label="my instagram link"><i class="fa-brands fa-instagram"></i></a>
-                <a id="twitter" target="_blank" href="https://www.twitter.com" aria-label="my twitter link"><i class="fa-brands fa-twitter"></i></a>
-                <a id="tiktok" target="_blank" href="https://www.tiktok.com" aria-label="my tiktok link"><i class="fa-brands fa-tiktok"></i></a>
-                <a id="discord" target="_blank" href="https://www.discord.com" aria-label="my discord link"><i class="fa-brands fa-discord"></i></a>
-                <a id="linkedin" target="_blank" href="https://www.linkedin.com" aria-label="my linkedin link"><i class="fa-brands fa-linkedin"></i></a>
-                <a id="github" target="_blank" href="https://www.github.com" aria-label="my github link"><i class="fa-brands fa-github"></i></a>
-            </div>
-            <a id="next-section" class="next-section" href="#About">About</a>
-            <a download="mohammed's CV" href="#">CV download</a>
+        <a id="next-section" class="next-section" href="#About">About</a>
+        <a download="mohammed's CV" href="#">CV download</a>
+    </div>
+  </main>
+  <!-- End main section -->
+  <!-- Start about section -->
+  <section id="About" class="About">
+    <h2 class="title-of-about">About</h2>
+    <div class="content">
+      <div class="container">
+        <div class="information-section">
+          <div id="information" class="information">
+            <span class="title-of-content">Who am i?</span>
+            <article>
+              Iam Moahammed Hamdy, Iam front end web developer, I builds a websites
+              I aged 14 years, I am very clever at front-end devolobment
+              and you can see my portfolio to learn more about my projects
+              there is a lot of projects in it,
+              I have more than one yearexperince in front end development
+              I have an account in all social media websites, I learnt programming by c++ language
+              then I learnt front end development by html, css, js, more framewoeks and libraries
+              , now I work on free lansing websites like mostaql or upwork
+              you can work with me from it
+          </article>
         </div>
-    </main>
-    <!-- End main section -->
-    <!-- Start about section -->
-    <section id="About" class="About">
-        <h2 class="title-of-about">About</h2>
-        <div class="content">
-            <div class="container">
-                <div class="information-section">
-                    <div id="information" class="information">
-                        <span class="title-of-content">Who am i?</span>
-                        <article>
-                            Iam Moahammed Hamdy, Iam front end web developer, I builds a websites
-                            I aged 14 years, I am very clever at front-end devolobment
-                            and you can see my portfolio to learn more about my projects
-                            there is a lot of projects in it,
-                            I have more than one yearexperince in front end development
-                            I have an account in all social media websites, I learnt programming by c++ language
-                            then I learnt front end development by html, css, js, more framewoeks and libraries
-                            , now I work on free lansing websites like mostaql or upwork
-                            you can work with me from it
-                        </article>
-                    </div>
-                </div>
-                <di id="image-information" class="image-section">
-                    <img src="images/working.png" alt="image for people are working">
-                </di>
-            </div>
         </div>
+        <div id="image-information" class="image-section">
+          <img src="images/working.png" alt="image for people are working">
+        </div>
+      </div>
+    </div>
         <!-- Start skills in about section -->
         <div class="skills">
             <h3 class="title-of-skills">skills</h3>
@@ -163,8 +161,8 @@
         <!-- Start use in about section -->
         <div class="use">
             <h3 class="title-of-use">I uses in the work:</h3>
-            <div id="main-language" class="main-language">
-                <div class="header-of-languages">
+            <div id="main-language" class="use-learn main-language">
+                <div class="header-of-use-learn header-of-languages">
                     <p id="title1">main languages</p>
                 </div>
                 <div class="container">
@@ -179,21 +177,21 @@
                     </div>
                 </div>
             </div>
-            <div id="frame-works" class="frame-works">
-                <div class="header-of-languages">
+            <div id="frame-works" class="use-learn frame-works">
+                <div class="header-of-use-learn header-of-frame-works">
                     <p id="title2">frame works</p>
                 </div>
                 <div class="container">
                     <div class="react">
-                        <a target="_blank" href="https://en.wikipedia.org/wiki/React_(front-end_framework)"><img src="images/react.png" alt="react js logo with blue color"></a>
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/React_(software)"><img src="images/react.png" alt="react js logo with blue color"></a>
                     </div>
                     <div class="bootstrap">
                         <a target="_blank" href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"><img src="images/bootstrap.png" alt="bootstrap logo with white and purple colors"></a>
                     </div>
                 </div>
             </div>
-            <div id="libraries" class="libraries">
-                <div class="header-of-languages">
+            <div id="libraries" class="use-learn libraries">
+                <div class="header-of-use-learn header-of-libraries">
                     <p>libraries</p>
                 </div>
                 <div class="container">
@@ -201,13 +199,26 @@
                         <a target="_blank" href="https://en.wikipedia.org/wiki/Font_Awesome"><img src="images/font_awesome.png" alt="font-awesome logo with blue color"></a>
                     </div>
                     <div class="tippy">
-                        <a target="_blank" href="https://en.wikipedia.org/wiki/Font_Awesome"><img src="images/tippy.png" alt="tippy js logo with black, white, pink, yellow, lightblue and blue"></a>
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/Font_Awesome"><img src="images/tippy.png" alt="tippy js logo with black, white, pink, yellow, lightblue and blue color"></a>
                     </div>
                     <div class="sweet-alert">
                         <a target="_blank" href="https://en.wikipedia.org/wiki/Font_Awesome"><img src="images/sweet_alert.png" alt="sweet alert logo have the same shape of donuts"></a>
                     </div>
                     <div class="jquery">
                         <a target="_blank" href="https://en.wikipedia.org/wiki/JQuery"><img src="images/jquery.png" alt="jquery logo with blue color"></a>
+                    </div>
+                </div>
+            </div>
+            <div id="other-lang" class="use-learn other-lang">
+                <div class="header-of-use-learn header-of-other-lang">
+                    <p>other languages</p>
+                </div>
+                <div class="container">
+                    <div class="typescript">
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/Font_Awesome"><img src="images/typescript.png" alt="typescript logo with blue color"></a>
+                    </div>
+                    <div class="sass">
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/Sass_(style_sheet_language)"><img src="images/sass.png" alt="sass logo with pink color"></a>
                     </div>
                 </div>
             </div>
@@ -301,7 +312,7 @@
                     <p>email</p>
                     <p>mohammeedhamdypd@gmail.com</p>
                 </div>
-                <div class="card2">
+                <div class="card2 number-card">
                     <i class="fa-solid fa-phone"></i>
                     <p>phone number</p>
                     <p>01118430533</p>

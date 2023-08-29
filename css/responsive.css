@@ -1,103 +1,110 @@
 :root{
-    --main-color: #0059ff;
-    --second-color: #0099ff;
-    --title-size: 30px;
-    --second-title-size: 25px;
-    --sections-padding: 60px;
-    --sections-mobile-padding: 0px;
-    --sections-margin: 2rem;
-    --second-title-padding: 20px;
-    --cards-title: 20px;
+  --main-color: #0059ff;
+  --second-color: #0099ff;
+  --title-size: 30px;
+  --second-title-size: 25px;
+  --sections-padding: 60px;
+  --sections-mobile-padding: 0px;
+  --sections-margin: 2rem;
+  --second-title-padding: 20px;
+  --cards-title: 20px;
 }
 /* responsive website */
 /* start small displays */
 @media (max-width: 760px) {
-    header{
-        gap: 20px;
-        justify-content: center;
-    }
-    header .container p{
-        font-size: 4px;
-    }
-    header .container nav{
-        flex-direction: column;
-        z-index: 100;
-        padding: 20px;
-        position: fixed;
-        top: 0;
-        right: 0;
-    }
-    header .container nav a{
-        font-size: 25px;
-        display: none;
-        direction: rtl;
-        height: 50px;
-    }
-    header .container nav .menu{
-        display: block;
-        direction: rtl;
-    }
-    header .container nav .theme{
-        display: none;
-    }
-    main{
-        height: 900px;
-    }
-    main h1{
-        font-size: 20px;
-    }
-    .About{
-        padding: var(--sections-mobile-padding);
-    }
-    .About .content .container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .About .content .container .information-section .information{
-        width: 350px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .About .content .container .image-section img{
-        width: 300px;
-    }
-    .About .skills .content{
-        flex-direction: column;
-        gap: 50px;
-    }
-    .About .use img{
-        width: 300px;
-    }
-    .About .My-skills .Skills{
-        grid-row: 2/2;
-        grid-template-rows: repeat(3,1fr);
-        border: 1px solid #000;
-        height: 300px;
-        width: 250px;
-    }
-    .About .My-skills .Resposive{
-        grid-row: 1/1;
-    }
-    .About .My-skills .Time{
-        grid-row: 2/2;
-    }
-    .About .My-skills .Quality{
-        grid-row: 3/3;
-    }
-    .Portfolio .projects .p{
-        height: 300px;
-        width: 100%;
-    }
-    .Contact{
-        display: grid;
-        justify-items: center;
-    }
-    .Contact .container{
-        padding: 10px;
-    }
-    footer .container-of-links-footer{
-        gap: 2px;
-    }
+  header{
+    gap: 20px;
+    justify-content: space-around;
+  }
+  header .container p{
+    font-size: 20px;
+  }
+  header .container nav{
+    flex-direction: column;
+    z-index: 100;
+    padding: 20px;
+    height: 100%;
+  }
+  header .container nav a{
+    display: none;
+    direction: rtl;
+  }
+  header .container nav .menu{
+    display: block;
+    direction: rtl;
+  }
+  header .container nav .theme{
+    display: none;
+  }
+  main{
+    height: 900px;
+  }
+  main h1{
+    font-size: 20px;
+  }
+  main .container img{
+    width: 300px;
+  }
+  main .container .links i{
+    font-size: 25px;
+  }
+  .About{
+    padding: var(--sections-mobile-padding);
+  }
+  .About .content .container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .About .content .container .information-section .information{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .About .content .container .image-section img{
+    width: 300px;
+  }
+  .About .skills .content{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .About .use img{
+    width: 200px;
+  }
+  .About .My-skills .Skills{
+    grid-row: 2/2;
+    grid-template-rows: repeat(3,1fr);
+    border: 1px solid #000;
+    height: 300px;
+    width: 250px;
+  }
+  .About .My-skills .Resposive{
+    grid-row: 1/1;
+  }
+  .About .My-skills .Time{
+    grid-row: 2/2;
+  }
+  .About .My-skills .Quality{
+    grid-row: 3/3;
+  }
+  .Portfolio{
+    width: 90%;
+  }
+  .Portfolio .container{
+    width: 90%;
+  }
+  .Contact{
+    display: grid;
+    justify-items: center;
+  }
+  .Contact .container{
+    padding: 10px;
+  }
+  .Contact .container .content .card2{
+    width: 200px;
+  }
+  footer .container-of-links-footer{
+    gap: 2px;
+  }
 }
 /* End small displays */
 

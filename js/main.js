@@ -8,6 +8,7 @@ let cards = document.getElementsByClassName('card2');
 let mainLanguage = document.getElementById('main-language');
 let frameWorks = document.getElementById('frame-works');
 let libraries = document.getElementById('libraries');
+let otherLang = document.getElementById('other-lang');
 let timeCard = document.getElementById('time-card');
 let card2 = document.getElementById('card2');
 let card3 = document.getElementById('card3');
@@ -124,8 +125,8 @@ themeButton.onclick = function () {
 // animations
 window.onload = function() {
     if (window.scrollY >= 0) {
-        // myPicture.style.animationName = 'third-anim';
-        // myPicture.style.animationDuration = '1s';
+        myPicture.style.animationName = 'third-anim';
+        myPicture.style.animationDuration = '3s';
         let counter = 1;
         let counter2 = 1;
         setInterval(function() {
@@ -138,37 +139,25 @@ window.onload = function() {
           const myTextWork = 'Front-end-develober';
           myWork1.innerHTML = myTextWork.slice(0, counter2);
           counter2++;
-        }, 200)
-        // const wtiting = new Promise(() => {
-        //     setInterval(function() {
-        //     const myTextName = 'I am Mohammed Hamdy Allam';
-        //     myName.innerHTML = myTextName.slice(0, counter);
-        //     counter++;
-        // }, 100)}).then(
-        // () => setInterval(function() {
-        //     counter = 1;
-        //     const myTextWork = 'Front-end-develober';
-        //     myWork1.innerHTML = myTextWork.slice(0, counter);
-        //     counter++;
-        // }));
-        // twitterLink.style.animationName = 'main-anim';
-        // twitterLink.style.animationDuration = '3.5s';
-        // tiktokLink.style.animationName = 'second-anim';
-        // tiktokLink.style.animationDuration = '4s';
-        // instagramLink.style.animationName = 'main-anim';
-        // instagramLink.style.animationDuration = '4.5s';
-        // discordLink.style.animationName = 'second-anim';
-        // discordLink.style.animationDuration = '5s';
-        // facebookLink.style.animationName = 'main-anim';
-        // facebookLink.style.animationDuration = '5.5s';
-        // linkedinLink.style.animationName = 'second-anim';
-        // linkedinLink.style.animationDuration = '6s';
-        // yourubeLink.style.animationName = 'main-anim';
-        // yourubeLink.style.animationDuration = '6.5s';
-        // githubLink.style.animationName = 'second-anim';
-        // githubLink.style.animationDuration = '7s';
-        // nextSection.style.animationName = 'main-anim';
-        // nextSection.style.animationDuration = '3s';
+        }, 200);
+        twitterLink.style.animationName = 'forth-anim';
+        twitterLink.style.animationDuration = '3.5s';
+        tiktokLink.style.animationName = 'forth-anim';
+        tiktokLink.style.animationDuration = '4s';
+        instagramLink.style.animationName = 'forth-anim';
+        instagramLink.style.animationDuration = '4.5s';
+        discordLink.style.animationName = 'forth-anim';
+        discordLink.style.animationDuration = '5s';
+        facebookLink.style.animationName = 'forth-anim';
+        facebookLink.style.animationDuration = '5.5s';
+        linkedinLink.style.animationName = 'forth-anim';
+        linkedinLink.style.animationDuration = '6s';
+        yourubeLink.style.animationName = 'forth-anim';
+        yourubeLink.style.animationDuration = '6.5s';
+        githubLink.style.animationName = 'forth-anim';
+        githubLink.style.animationDuration = '7s';
+        nextSection.style.animationName = 'forth-anim';
+        nextSection.style.animationDuration = '1s';
     }
     if (window.scrollY >= 500) {
         information.style.animationName = 'fifth-anim';
@@ -205,6 +194,11 @@ window.onload = function() {
         libraries.style.animationDuration = '1s';
         libraries.style.animationFillMode = 'forwards';
     }
+    if (window.scrollY >= 2000) {
+        otherLang.style.animationName = 'second-anim';
+        otherLang.style.animationDuration = '1s';
+        otherLang.style.animationFillMode = 'forwards';
+    }
 };
 
 window.onscroll = function() {
@@ -223,43 +217,39 @@ window.onscroll = function() {
     }
     // make an animation script
     if (window.scrollY >= 0) {
-        // myPicture.style.animationName = 'third-anim';
-        // myPicture.style.animationDuration = '1s';
-        // let counter = 1;
-        // const wtiting = new Promise(() => {
-        //     setInterval(function() {
-        //     const myTextName = 'I am Mohammed Hamdy Allam';
-        //     myName.innerHTML = myTextName.slice(0, counter);
-        //     counter++;
-        // }, 100)}).then(
-        // () => setInterval(function() {
-        //     counter = 1;
-        //     const myTextWork = 'Front-end-develober';
-        //     myWork1.innerHTML = myTextWork.slice(0, counter);
-        //     counter++;
-        // }));
-        // myName.style.animationName = 'main-anim';
-        // myName.style.animationDuration = '1.5s';
-        // myWork1.style.animationName = 'main-anim';
-        // myWork1.style.animationDuration = '2s';
-        // twitterLink.style.animationName = 'main-anim';
-        // twitterLink.style.animationDuration = '3.5s';
-        // tiktokLink.style.animationName = 'second-anim';
-        // tiktokLink.style.animationDuration = '4s';
-        // instagramLink.style.animationName = 'main-anim';
-        // instagramLink.style.animationDuration = '4.5s';
-        // discordLink.style.animationName = 'second-anim';
-        // discordLink.style.animationDuration = '5s';
-        // facebookLink.style.animationName = 'main-anim';
-        // facebookLink.style.animationDuration = '5.5s';
-        // linkedinLink.style.animationName = 'second-anim';
-        // linkedinLink.style.animationDuration = '6s';
-        // yourubeLink.style.animationName = 'main-anim';
-        // yourubeLink.style.animationDuration = '6.5s';
-        // githubLink.style.animationName = 'second-anim';
-        // githubLink.style.animationDuration = '7s';
-        // nextSection.style.animationName = 'main-anim';
-        // nextSection.style.animationDuration = '3s';
+      myPicture.style.animationName = 'third-anim';
+      myPicture.style.animationDuration = '3s';
+      let counter = 1;
+      let counter2 = 1;
+      // setInterval(function() {
+      //   const myTextName = 'I am Mohammed Hamdy Allam';
+      //   myName.innerHTML = myTextName.slice(0, counter);
+      //   counter++;
+      // }, 100);
+      // setInterval(function() {
+      //   // counter2 = 1;
+      //   const myTextWork = 'Front-end-develober';
+      //   myWork1.innerHTML = myTextWork.slice(0, counter2);
+      //   counter2++;
+      // }, 200);
+        twitterLink.style.animationName = 'forth-anim';
+        twitterLink.style.animationDuration = '3.5s';
+        tiktokLink.style.animationName = 'forth-anim';
+        tiktokLink.style.animationDuration = '4s';
+        instagramLink.style.animationName = 'forth-anim';
+        instagramLink.style.animationDuration = '4.5s';
+        discordLink.style.animationName = 'forth-anim';
+        discordLink.style.animationDuration = '5s';
+        facebookLink.style.animationName = 'forth-anim';
+        facebookLink.style.animationDuration = '5.5s';
+        linkedinLink.style.animationName = 'forth-anim';
+        linkedinLink.style.animationDuration = '6s';
+        yourubeLink.style.animationName = 'forth-anim';
+        yourubeLink.style.animationDuration = '6.5s';
+        githubLink.style.animationName = 'forth-anim';
+        githubLink.style.animationDuration = '7s';
+        nextSection.style.animationName = 'forth-anim';
+        nextSection.style.animationDuration = '1s';
     }
     if (window.scrollY >= 500) {
         information.style.animationName = 'fifth-anim';
@@ -298,6 +288,11 @@ window.onscroll = function() {
         libraries.style.animationDuration = '1s';
         libraries.style.animationFillMode = 'forwards';
     }
+    if (window.scrollY >= 2000) {
+      otherLang.style.animationName = 'second-anim';
+      otherLang.style.animationDuration = '1s';
+      otherLang.style.animationFillMode = 'forwards';
+  }
 };
 
 
