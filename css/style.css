@@ -235,7 +235,6 @@ main .container .next-section:hover{
 }
 .About .content .container .information-section .information{
   text-align: start;
-  opacity: 0;
 }
 .About .content .container .information-section .information .title-of-content{
   color: var(--main-color);
@@ -244,9 +243,6 @@ main .container .next-section:hover{
 }
 .About .content .container .information-section .information article{
   font-size: 20px;
-}
-.About .content .container .image-section{
-  opacity: 0;
 }
 .About .content .container .image-section img{
   width: 300px;
@@ -319,7 +315,6 @@ main .container .next-section:hover{
   justify-content: space-around;
   box-shadow: 0 5px 25px rgba(1, 1, 1, 50%);
   gap: 10px;
-  opacity: 0;
 }
 .About .use .use-learn .header-of-use-learn{
   color: #fff;

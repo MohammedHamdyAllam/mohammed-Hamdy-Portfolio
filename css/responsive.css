@@ -102,6 +102,9 @@
   .Contact .container .content .card2{
     width: 200px;
   }
+  .Contact .container .email-card a{
+    font-size: 10px;
+  }
   footer .container-of-links-footer{
     gap: 2px;
   }

@@ -122,178 +122,178 @@ themeButton.onclick = function () {
     }
 };
 
-// animations
-window.onload = function() {
-    if (window.scrollY >= 0) {
-        myPicture.style.animationName = 'third-anim';
-        myPicture.style.animationDuration = '3s';
-        let counter = 1;
-        let counter2 = 1;
-        setInterval(function() {
-          const myTextName = 'I am Mohammed Hamdy Allam';
-          myName.innerHTML = myTextName.slice(0, counter);
-          counter++;
-        }, 100);
-        setInterval(function() {
-          // counter2 = 1;
-          const myTextWork = 'Front-end-develober';
-          myWork1.innerHTML = myTextWork.slice(0, counter2);
-          counter2++;
-        }, 200);
-        twitterLink.style.animationName = 'forth-anim';
-        twitterLink.style.animationDuration = '3.5s';
-        tiktokLink.style.animationName = 'forth-anim';
-        tiktokLink.style.animationDuration = '4s';
-        instagramLink.style.animationName = 'forth-anim';
-        instagramLink.style.animationDuration = '4.5s';
-        discordLink.style.animationName = 'forth-anim';
-        discordLink.style.animationDuration = '5s';
-        facebookLink.style.animationName = 'forth-anim';
-        facebookLink.style.animationDuration = '5.5s';
-        linkedinLink.style.animationName = 'forth-anim';
-        linkedinLink.style.animationDuration = '6s';
-        yourubeLink.style.animationName = 'forth-anim';
-        yourubeLink.style.animationDuration = '6.5s';
-        githubLink.style.animationName = 'forth-anim';
-        githubLink.style.animationDuration = '7s';
-        nextSection.style.animationName = 'forth-anim';
-        nextSection.style.animationDuration = '1s';
-    }
-    if (window.scrollY >= 500) {
-        information.style.animationName = 'fifth-anim';
-        information.style.animationDuration = '1s';
-        imageInformation.style.animationName = 'sixth-anim'
-        imageInformation.style.animationDuration = '1s';
-    }
-    if (window.scrollY >= 500) {
-        timeCard.style.animationName = 'main-anim';
-        timeCard.style.animationDuration = '2s';
-        timeCard.style.animationFillMode = 'forwards';
-        card2.style.animationName = 'main-anim';
-        card2.style.animationDuration = '1.5s';
-        card2.style.animationFillMode = 'forwards';
-        card3.style.animationName = 'main-anim';
-        card3.style.animationDuration = '1s';
-        card3.style.animationFillMode = 'forwards';
-        card4.style.animationName = 'main-anim';
-        card4.style.animationDuration = '0.5s';
-        card4.style.animationFillMode = 'forwards';
-    }
-    if (window.scrollY >= 1000) {
-        mainLanguage.style.animationName = 'main-anim';
-        mainLanguage.style.animationDuration = '0.4s';
-        mainLanguage.style.animationFillMode = 'forwards';
-    }
-    if (window.scrollY >= 1400) {
-        frameWorks.style.animationName = 'second-anim';
-        frameWorks.style.animationDuration = '0.7s';
-        frameWorks.style.animationFillMode = 'forwards';
-    }
-    if (window.scrollY >= 1800) {
-        libraries.style.animationName = 'main-anim';
-        libraries.style.animationDuration = '1s';
-        libraries.style.animationFillMode = 'forwards';
-    }
-    if (window.scrollY >= 2000) {
-        otherLang.style.animationName = 'second-anim';
-        otherLang.style.animationDuration = '1s';
-        otherLang.style.animationFillMode = 'forwards';
-    }
-};
+// // animations
+// window.onload = function() {
+//     if (window.scrollY >= 0) {
+//         myPicture.style.animationName = 'third-anim';
+//         myPicture.style.animationDuration = '3s';
+//         let counter = 1;
+//         let counter2 = 1;
+//         setInterval(function() {
+//           const myTextName = 'I am Mohammed Hamdy Allam';
+//           myName.innerHTML = myTextName.slice(0, counter);
+//           counter++;
+//         }, 100);
+//         setInterval(function() {
+//           // counter2 = 1;
+//           const myTextWork = 'Front-end-develober';
+//           myWork1.innerHTML = myTextWork.slice(0, counter2);
+//           counter2++;
+//         }, 200);
+//         twitterLink.style.animationName = 'forth-anim';
+//         twitterLink.style.animationDuration = '3.5s';
+//         tiktokLink.style.animationName = 'forth-anim';
+//         tiktokLink.style.animationDuration = '4s';
+//         instagramLink.style.animationName = 'forth-anim';
+//         instagramLink.style.animationDuration = '4.5s';
+//         discordLink.style.animationName = 'forth-anim';
+//         discordLink.style.animationDuration = '5s';
+//         facebookLink.style.animationName = 'forth-anim';
+//         facebookLink.style.animationDuration = '5.5s';
+//         linkedinLink.style.animationName = 'forth-anim';
+//         linkedinLink.style.animationDuration = '6s';
+//         yourubeLink.style.animationName = 'forth-anim';
+//         yourubeLink.style.animationDuration = '6.5s';
+//         githubLink.style.animationName = 'forth-anim';
+//         githubLink.style.animationDuration = '7s';
+//         nextSection.style.animationName = 'forth-anim';
+//         nextSection.style.animationDuration = '1s';
+//     }
+//     if (window.scrollY >= 500) {
+//         information.style.animationName = 'fifth-anim';
+//         information.style.animationDuration = '1s';
+//         imageInformation.style.animationName = 'sixth-anim'
+//         imageInformation.style.animationDuration = '1s';
+//     }
+//     if (window.scrollY >= 500) {
+//         timeCard.style.animationName = 'main-anim';
+//         timeCard.style.animationDuration = '2s';
+//         timeCard.style.animationFillMode = 'forwards';
+//         card2.style.animationName = 'main-anim';
+//         card2.style.animationDuration = '1.5s';
+//         card2.style.animationFillMode = 'forwards';
+//         card3.style.animationName = 'main-anim';
+//         card3.style.animationDuration = '1s';
+//         card3.style.animationFillMode = 'forwards';
+//         card4.style.animationName = 'main-anim';
+//         card4.style.animationDuration = '0.5s';
+//         card4.style.animationFillMode = 'forwards';
+//     }
+//     if (window.scrollY >= 1000) {
+//         mainLanguage.style.animationName = 'main-anim';
+//         mainLanguage.style.animationDuration = '0.4s';
+//         mainLanguage.style.animationFillMode = 'forwards';
+//     }
+//     if (window.scrollY >= 1400) {
+//         frameWorks.style.animationName = 'second-anim';
+//         frameWorks.style.animationDuration = '0.7s';
+//         frameWorks.style.animationFillMode = 'forwards';
+//     }
+//     if (window.scrollY >= 1800) {
+//         libraries.style.animationName = 'main-anim';
+//         libraries.style.animationDuration = '1s';
+//         libraries.style.animationFillMode = 'forwards';
+//     }
+//     if (window.scrollY >= 2000) {
+//         otherLang.style.animationName = 'second-anim';
+//         otherLang.style.animationDuration = '1s';
+//         otherLang.style.animationFillMode = 'forwards';
+//     }
+// };
 
-window.onscroll = function() {
-    // make a up button script
-    if (window.scrollY >= 120) {
-        upButton.style.display = 'block';
-        upButton.onclick = function () {
-        window.scrollTo({
-            left: 0,
-            top: 0,
-            behavior: 'smooth',
-        })}
-    }
-    else {
-        upButton.style.display = 'none';
-    }
-    // make an animation script
-    if (window.scrollY >= 0) {
-      myPicture.style.animationName = 'third-anim';
-      myPicture.style.animationDuration = '3s';
-      let counter = 1;
-      let counter2 = 1;
-      // setInterval(function() {
-      //   const myTextName = 'I am Mohammed Hamdy Allam';
-      //   myName.innerHTML = myTextName.slice(0, counter);
-      //   counter++;
-      // }, 100);
-      // setInterval(function() {
-      //   // counter2 = 1;
-      //   const myTextWork = 'Front-end-develober';
-      //   myWork1.innerHTML = myTextWork.slice(0, counter2);
-      //   counter2++;
-      // }, 200);
-        twitterLink.style.animationName = 'forth-anim';
-        twitterLink.style.animationDuration = '3.5s';
-        tiktokLink.style.animationName = 'forth-anim';
-        tiktokLink.style.animationDuration = '4s';
-        instagramLink.style.animationName = 'forth-anim';
-        instagramLink.style.animationDuration = '4.5s';
-        discordLink.style.animationName = 'forth-anim';
-        discordLink.style.animationDuration = '5s';
-        facebookLink.style.animationName = 'forth-anim';
-        facebookLink.style.animationDuration = '5.5s';
-        linkedinLink.style.animationName = 'forth-anim';
-        linkedinLink.style.animationDuration = '6s';
-        yourubeLink.style.animationName = 'forth-anim';
-        yourubeLink.style.animationDuration = '6.5s';
-        githubLink.style.animationName = 'forth-anim';
-        githubLink.style.animationDuration = '7s';
-        nextSection.style.animationName = 'forth-anim';
-        nextSection.style.animationDuration = '1s';
-    }
-    if (window.scrollY >= 500) {
-        information.style.animationName = 'fifth-anim';
-        information.style.animationDuration = '1s';
-        information.style.animationFillMode = 'forwards';
-        imageInformation.style.animationName = 'sixth-anim'
-        imageInformation.style.animationDuration = '1s';
-        imageInformation.style.animationFillMode = 'forwards';
-    }
-    if (window.scrollY >= 500) {
-        timeCard.style.animationName = 'main-anim';
-        timeCard.style.animationDuration = '2s';
-        timeCard.style.animationFillMode = 'forwards';
-        card2.style.animationName = 'main-anim';
-        card2.style.animationDuration = '1.5s';
-        card2.style.animationFillMode = 'forwards';
-        card3.style.animationName = 'main-anim';
-        card3.style.animationDuration = '1s';
-        card3.style.animationFillMode = 'forwards';
-        card4.style.animationName = 'main-anim';
-        card4.style.animationDuration = '0.5s';
-        card4.style.animationFillMode = 'forwards';
-    }
-    if (window.scrollY >= 1000) {
-        mainLanguage.style.animationName = 'main-anim';
-        mainLanguage.style.animationDuration = '0.4s';
-        mainLanguage.style.animationFillMode = 'forwards';
-    }
-    if (window.scrollY >= 1400) {
-        frameWorks.style.animationName = 'second-anim';
-        frameWorks.style.animationDuration = '0.7s';
-        frameWorks.style.animationFillMode = 'forwards';
-    }
-    if (window.scrollY >= 1800) {
-        libraries.style.animationName = 'main-anim';
-        libraries.style.animationDuration = '1s';
-        libraries.style.animationFillMode = 'forwards';
-    }
-    if (window.scrollY >= 2000) {
-      otherLang.style.animationName = 'second-anim';
-      otherLang.style.animationDuration = '1s';
-      otherLang.style.animationFillMode = 'forwards';
-  }
-};
+// window.onscroll = function() {
+//     // make a up button script
+//     if (window.scrollY >= 120) {
+//         upButton.style.display = 'block';
+//         upButton.onclick = function () {
+//         window.scrollTo({
+//             left: 0,
+//             top: 0,
+//             behavior: 'smooth',
+//         })}
+//     }
+//     else {
+//         upButton.style.display = 'none';
+//     }
+//     // make an animation script
+//     if (window.scrollY >= 0) {
+//       myPicture.style.animationName = 'third-anim';
+//       myPicture.style.animationDuration = '3s';
+//       let counter = 1;
+//       let counter2 = 1;
+//       // setInterval(function() {
+//       //   const myTextName = 'I am Mohammed Hamdy Allam';
+//       //   myName.innerHTML = myTextName.slice(0, counter);
+//       //   counter++;
+//       // }, 100);
+//       // setInterval(function() {
+//       //   // counter2 = 1;
+//       //   const myTextWork = 'Front-end-develober';
+//       //   myWork1.innerHTML = myTextWork.slice(0, counter2);
+//       //   counter2++;
+//       // }, 200);
+//         twitterLink.style.animationName = 'forth-anim';
+//         twitterLink.style.animationDuration = '3.5s';
+//         tiktokLink.style.animationName = 'forth-anim';
+//         tiktokLink.style.animationDuration = '4s';
+//         instagramLink.style.animationName = 'forth-anim';
+//         instagramLink.style.animationDuration = '4.5s';
+//         discordLink.style.animationName = 'forth-anim';
+//         discordLink.style.animationDuration = '5s';
+//         facebookLink.style.animationName = 'forth-anim';
+//         facebookLink.style.animationDuration = '5.5s';
+//         linkedinLink.style.animationName = 'forth-anim';
+//         linkedinLink.style.animationDuration = '6s';
+//         yourubeLink.style.animationName = 'forth-anim';
+//         yourubeLink.style.animationDuration = '6.5s';
+//         githubLink.style.animationName = 'forth-anim';
+//         githubLink.style.animationDuration = '7s';
+//         nextSection.style.animationName = 'forth-anim';
+//         nextSection.style.animationDuration = '1s';
+//     }
+//     if (window.scrollY >= 500) {
+//         information.style.animationName = 'fifth-anim';
+//         information.style.animationDuration = '1s';
+//         information.style.animationFillMode = 'forwards';
+//         imageInformation.style.animationName = 'sixth-anim'
+//         imageInformation.style.animationDuration = '1s';
+//         imageInformation.style.animationFillMode = 'forwards';
+//     }
+//     if (window.scrollY >= 500) {
+//         timeCard.style.animationName = 'main-anim';
+//         timeCard.style.animationDuration = '2s';
+//         timeCard.style.animationFillMode = 'forwards';
+//         card2.style.animationName = 'main-anim';
+//         card2.style.animationDuration = '1.5s';
+//         card2.style.animationFillMode = 'forwards';
+//         card3.style.animationName = 'main-anim';
+//         card3.style.animationDuration = '1s';
+//         card3.style.animationFillMode = 'forwards';
+//         card4.style.animationName = 'main-anim';
+//         card4.style.animationDuration = '0.5s';
+//         card4.style.animationFillMode = 'forwards';
+//     }
+//     if (window.scrollY >= 1000) {
+//         mainLanguage.style.animationName = 'main-anim';
+//         mainLanguage.style.animationDuration = '0.4s';
+//         mainLanguage.style.animationFillMode = 'forwards';
+//     }
+//     if (window.scrollY >= 1400) {
+//         frameWorks.style.animationName = 'second-anim';
+//         frameWorks.style.animationDuration = '0.7s';
+//         frameWorks.style.animationFillMode = 'forwards';
+//     }
+//     if (window.scrollY >= 1800) {
+//         libraries.style.animationName = 'main-anim';
+//         libraries.style.animationDuration = '1s';
+//         libraries.style.animationFillMode = 'forwards';
+//     }
+//     if (window.scrollY >= 2000) {
+//       otherLang.style.animationName = 'second-anim';
+//       otherLang.style.animationDuration = '1s';
+//       otherLang.style.animationFillMode = 'forwards';
+//   }
+// };
 
 
 // functions
