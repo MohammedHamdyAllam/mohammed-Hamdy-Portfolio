@@ -20,6 +20,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 i{
   color: #fff;
@@ -68,10 +69,10 @@ i{
 }
 @keyframes rotation{
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 .wifi .reload-button:hover{
@@ -104,6 +105,7 @@ header .container{
 }
 header .container p{
   font-size: 25px;
+  margin: 0;
 }
 header .container nav{
   display: flex;
@@ -532,9 +534,43 @@ footer .footer-name{
   right: 10px;
   display: none;
   text-align: center;
+  padding: 10px;
   animation-fill-mode:forwards;
   cursor: pointer;
 }
 .up:hover{
   background-color: var(--second-color);
+}
+
+@keyframes burgerMenuOpenAnim {
+  0% {
+    transform: translateX(200px);
+    -webkit-transform: translateX(200px);
+    -moz-transform: translateX(200px);
+    -ms-transform: translateX(200px);
+    -o-transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+}
+@keyframes burgerMenuCloseAnim {
+  0% {
+    transform: translateX(100);
+    -webkit-transform: translateX(100);
+    -moz-transform: translateX(100);
+    -ms-transform: translateX(100);
+    -o-transform: translateX(100);
+}
+  100% {
+    transform: translateX(-200);
+    -webkit-transform: translateX(-200);
+    -moz-transform: translateX(-200);
+    -ms-transform: translateX(-200);
+    -o-transform: translateX(-200);
+}
 }
