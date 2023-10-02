@@ -450,7 +450,7 @@ main .container .next-section:hover{
   justify-content: space-around;
   gap: 60px;
 }
-.Contact .container .content .card2{
+.Contact .container .content .contact-card{
   background-color: #fff;
   color: #000;
   padding: 25px;
@@ -462,18 +462,18 @@ main .container .next-section:hover{
   display: grid;
   justify-items: center;
 }
-.Contact .container .content .card2:hover{
+.Contact .container .content .contact-card:hover{
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
-.Contact .container .content .card2 i{
+.Contact .container .content .contact-card i{
   color: #0099ff;
   font-size: 70px;
 }
-.Contact .container .content .card2 img{
+.Contact .container .content .contact-card img{
   width: 70px;
 }
 /* End contact section design */
